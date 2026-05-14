@@ -226,4 +226,27 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * Project category tab switching
+   */
+  document.querySelectorAll('.category-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      // Update active tab
+      document.querySelectorAll('.category-tab').forEach(function(t) {
+        t.classList.remove('active');
+      });
+      this.classList.add('active');
+
+      // Show corresponding category
+      var category = this.getAttribute('data-category');
+      document.querySelectorAll('.projects-category').forEach(function(cat) {
+        cat.classList.remove('active');
+      });
+      var target = document.getElementById('category-' + category);
+      if (target) {
+        target.classList.add('active');
+      }
+    });
+  });
+
 })();
