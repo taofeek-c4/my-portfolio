@@ -4,429 +4,556 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Abdul-wahab Taofeek | Software Engineer & Web Developer</title>
-  <meta name="description" content="Portfolio of Abdul-wahab Taofeek - Software Engineer and Web Developer building high-quality websites and web applications.">
-  <meta name="keywords" content="web developer, software engineer, portfolio, websites, web applications">
+  <title>Abdulwahab Taofeek | Software Engineer & Web Developer in Lagos</title>
+  <meta name="description" content="Abdulwahab Taofeek is a software engineer and web developer in Lagos, Nigeria, building fast, modern websites and web applications for businesses and brands.">
+  <meta name="keywords" content="Abdulwahab Taofeek, web developer lagos, software engineer nigeria, frontend developer, full-stack developer, react developer, portfolio">
+  <meta name="author" content="Abdulwahab Taofeek">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1A1A1A">
+  <link rel="canonical" href="https://abdulwahabtaofeekdev.netlify.app/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Abdulwahab Taofeek">
+  <meta property="og:url" content="https://abdulwahabtaofeekdev.netlify.app/">
+  <meta property="og:title" content="Abdulwahab Taofeek | Software Engineer & Web Developer">
+  <meta property="og:description" content="Building fast, modern websites and web applications for businesses and brands.">
+  <meta property="og:image" content="https://abdulwahabtaofeekdev.netlify.app/assets/img/profile/my%20image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abdulwahab Taofeek | Software Engineer & Web Developer">
+  <meta name="twitter:description" content="Building fast, modern websites and web applications for businesses and brands.">
+  <meta name="twitter:image" content="https://abdulwahabtaofeekdev.netlify.app/assets/img/profile/my%20image.jpg">
+
+  <!-- Favicon -->
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
+  <link href="assets/img/profile/my image.jpg" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Main CSS File (DevTao design system) -->
+  <link href="assets/css/devtao.css" rel="stylesheet">
+
+  <!-- Structured Data: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abdulwahab Taofeek",
+    "jobTitle": "Software Engineer & Web Developer",
+    "url": "https://abdulwahabtaofeekdev.netlify.app/",
+    "image": "https://abdulwahabtaofeekdev.netlify.app/assets/img/profile/my%20image.jpg",
+    "email": "abdulwahabtaofeek22@gmail.com",
+    "telephone": "+2349060268865",
+    "address": { "@type": "PostalAddress", "addressLocality": "Lagos", "addressRegion": "Lagos State", "addressCountry": "NG" },
+    "sameAs": [
+      "https://github.com/taofeek-c4",
+      "https://x.com/dev_tao_",
+      "https://www.instagram.com/dev_tao",
+      "https://www.facebook.com/share/15S1EmQdZd/"
+    ],
+    "knowsAbout": ["Web Development", "Software Engineering", "JavaScript", "React", "Node.js", "Python", "UI/UX Design"]
+  }
+  </script>
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    <div class="header-container d-flex flex-column align-items-start">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/profile/my image.jpg" alt="Abdulwahab Taofeek">
+        <h1 class="sitename">Taofeek</h1>
+      </a>
+
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#portfolio"><i class="bi bi-layers navicon"></i> Projects</a></li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <div class="social-links text-center">
-        <a href="https://x.com/dev_tao_" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/share/15S1EmQdZd/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/dev_tao?igsh=MTBkem1oMWliYXFybA==" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="https://wa.link/8pthz5" class="linkedin"><i class="bi bi-whatsapp"></i></a>
-      </div>
+      <a class="btn-getstarted" href="https://wa.me/2349060268865?text=Hi%20Abdulwahab,%20I'd%20like%20to%20work%20with%20you.">Hire Me</a>
 
     </div>
-
   </header>
 
   <main class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section">
-
-      <div class="background-elements">
-        <div class="bg-circle circle-1"></div>
-        <div class="bg-circle circle-2"></div>
-      </div>
-
-      <div class="hero-content">
-        
-        <div class="container">
-          <div class="row align-items-center">
-
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-              <div class="hero-text">
-                <h1>Web<span class="accent-text">Developer</span></h1>
-                <h2>Abdul-wahab Taofeek</h2>
-                <p class="lead">I'm <span class="typed" data-typed-items=" A Full-stack Developer,A Software Engineer"></span></p>
-                <p class="description">I build websites and web applications that are visually compelling, functionally robust, and engineered to deliver real business value.</p>
-
-                <div class="hero-actions">
-                  <a href="#portfolio" class="btn btn-primary">View My Work</a>
-                  <a href="#contact" class="btn btn-outline">Get In Touch</a>
-                </div>
-
-                <div class="social-links">
-                  <a href="https://x.com/dev_tao_"><i class="bi bi-twitter-x"></i></a>
-                  <a href="https://github.com/taofeek-c4"><i class="bi bi-github"></i></a>
-                  <a href="https://wa.link/8pthz5"><i class="bi bi-whatsapp"></i></a>
-                </div>
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-6 content-col" data-aos="fade-up">
+            <div class="content">
+              <div class="main-heading">
+                <h1>Software Engineer <br>& Web Developer</h1>
+              </div>
+              <div class="divider"></div>
+              <div class="description">
+                <p>Hi, I'm Abdulwahab Taofeek. I build websites and web applications that are visually compelling, functionally robust, and engineered to deliver real business value.</p>
+              </div>
+              <div class="cta-button">
+                <a href="#portfolio" class="btn">
+                  <span>VIEW MY WORK</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+              <div class="hero-socials mt-4">
+                <a href="https://github.com/taofeek-c4" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://x.com/dev_tao_" target="_blank" rel="noopener" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.instagram.com/dev_tao" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://wa.me/2349060268865" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
               </div>
             </div>
+          </div>
 
-            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
-              <div class="hero-visual">
-                <div class="profile-container">
-                  <div class="profile-background"></div>
-                  <img src="assets/img/profile/my image.jpg" alt="Abdul-wahab Taofeek" class="profile-image">
-                  <div class="floating-elements">
-                    <div class="floating-icon icon-1"><i class="bi bi-palette"></i></div>
-                    <div class="floating-icon icon-2"><i class="bi bi-code-slash"></i></div>
-                    <div class="floating-icon icon-3"><i class="bi bi-lightbulb"></i></div>
-                    <div class="floating-icon icon-4"><i class="bi bi-graph-up"></i></div>
-                  </div>
-                </div>
+          <div class="col-lg-5" data-aos="zoom-out">
+            <div class="visual-content">
+              <div class="fluid-shape">
+                <img src="assets/img/profile/my image.jpg" alt="Abdulwahab Taofeek" class="fluid-img hero-profile">
               </div>
             </div>
-
           </div>
         </div>
       </div>
-
     </section><!-- /Hero Section -->
 
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <div><span>About</span> <span class="description-title">Me</span></div>
+      </div>
+
+      <div class="container">
+
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-9 text-center about-intro">
+            <h3>Turning ideas into fast, functional products</h3>
+            <p class="lead">I'm a certified web developer with a Computer Science degree from the Federal University of Agriculture, Abeokuta (FUNAAB). What started as a hobby in university has grown into helping 30+ businesses and brands bring their ideas to life online — from marketing websites to full-stack web applications.</p>
+          </div>
+        </div>
+
+        <div class="row gy-4 mt-2 about-pillars">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="pillar-card h-100">
+              <div class="pillar-icon"><i class="bi bi-code-slash"></i></div>
+              <h4>What I Build</h4>
+              <p>Responsive marketing sites, e-commerce stores, dashboards, and custom web apps built to perform.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="pillar-card h-100">
+              <div class="pillar-icon"><i class="bi bi-stack"></i></div>
+              <h4>My Stack</h4>
+              <p>HTML, CSS, JavaScript, React &amp; Node.js on the web; Python for ML and data-driven tools.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="pillar-card h-100">
+              <div class="pillar-icon"><i class="bi bi-compass"></i></div>
+              <h4>My Approach</h4>
+              <p>Clean code, thoughtful UX, and clear communication — shipping work that looks great and delivers results.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
 
     <!-- Projects Section -->
     <section id="portfolio" class="portfolio section">
 
-      <div class="container" data-aos="fade-up">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div><span>Selected</span> <span class="description-title">Work</span></div>
+      </div>
 
-        <!-- Section Header -->
-        <div class="projects-header">
-          <span class="projects-badge" data-aos="fade-right">Selected Work</span>
-          <h2 data-aos="fade-right" data-aos-delay="50">Projects that speak<br>for themselves.</h2>
-          <p class="projects-subtitle" data-aos="fade-right" data-aos-delay="100">A curated collection of websites and web applications I've designed and developed for clients and personal projects.</p>
-        </div>
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
 
-        <!-- Category Tabs -->
-        <div class="category-tabs" data-aos="fade-up" data-aos-delay="150">
-          <button class="category-tab active" data-category="websites" id="tab-websites">
-            <i class="bi bi-globe2"></i>
-            <span>Website Development</span>
-            <span class="tab-count">8</span>
-          </button>
-          <button class="category-tab" data-category="webapps" id="tab-webapps">
-            <i class="bi bi-window-stack"></i>
-            <span>Web Application Development</span>
-            <span class="tab-count">5</span>
-          </button>
-        </div>
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-        <!-- Website Development Projects -->
-        <div class="projects-category active" id="category-websites">
-          <div class="projects-grid" data-aos="fade-up" data-aos-delay="200">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active"><i class="bi bi-grid-3x3"></i> All</li>
+            <li data-filter=".filter-website"><i class="bi bi-globe2"></i> Websites</li>
+            <li data-filter=".filter-webapp"><i class="bi bi-window-stack"></i> Web Apps</li>
+          </ul>
 
-            <!-- Project 1: Monimichelle Sports -->
-            <a href="https://monimechelle.netlify.app" target="_blank" rel="noopener" class="project-card project-card--wide" id="project-monimichelle">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/monimichelle-sports.png" alt="Monimichelle Sports" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Monimichelle Sports</h3>
-                <p>Premier sports facility construction company website across Africa.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>Corporate</span>
-                </div>
-              </div>
-            </a>
+          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
 
-            <!-- Project 2: Le Poshe School -->
-            <a href="https://le-porshe.netlify.app" target="_blank" rel="noopener" class="project-card" id="project-leposhe">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/le-poshe-school.png" alt="Le Poshe School" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Le Poshe School</h3>
-                <p>Modern educational institution website with enrollment features.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>Education</span>
-                </div>
-              </div>
-            </a>
+            <!-- Websites -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/monimichelle-sports.png" class="img-fluid" alt="Monimichelle Sports" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">Monimichelle Sports</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/monimichelle-sports.png" class="glightbox" data-gallery="pf" data-glightbox="title: Monimichelle Sports; description: Sports facility construction company website."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://monimechelle.netlify.app" data-title="Monimichelle Sports" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://monimechelle.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project 3: BAMSCOM Smart Systems -->
-            <a href="https://bamscom-telecoms.netlify.app" target="_blank" rel="noopener" class="project-card" id="project-bamscom">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/bamscom-smart.png" alt="BAMSCOM Smart Systems" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>BAMSCOM Smart Systems</h3>
-                <p>Audio-visual and home automation solutions provider website.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>Technology</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/le-poshe-school.png" class="img-fluid" alt="Le Poshe School" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">Le Poshe School</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/le-poshe-school.png" class="glightbox" data-gallery="pf" data-glightbox="title: Le Poshe School; description: Modern school website with enrollment features."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://le-porshe.netlify.app" data-title="Le Poshe School" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://le-porshe.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project 4: Jules Construction -->
-            <a href="https://jules-construction.netlify.app" target="_blank" rel="noopener" class="project-card project-card--wide" id="project-jules">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/jules-construction.png" alt="Jules Construction" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Jules Construction</h3>
-                <p>Leading construction experts in Lagos with project showcases.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>Construction</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/bamscom-smart.png" class="img-fluid" alt="BAMSCOM Smart Systems" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">BAMSCOM Smart Systems</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/bamscom-smart.png" class="glightbox" data-gallery="pf" data-glightbox="title: BAMSCOM Smart Systems; description: Audio-visual & home automation website."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://bamscom-telecoms.netlify.app" data-title="BAMSCOM Smart Systems" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://bamscom-telecoms.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project 5: Motivico Business -->
-            <a href="https://motivico-business.netlify.app" target="_blank" rel="noopener" class="project-card" id="project-motivico">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/motivico-business.png" alt="Motivico Business Solutions" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Motivico Business</h3>
-                <p>Corporate website for a business consulting and solutions firm.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>Responsive</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/jules-construction.png" class="img-fluid" alt="Jules Construction" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">Jules Construction</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/jules-construction.png" class="glightbox" data-gallery="pf" data-glightbox="title: Jules Construction; description: Construction company website in Lagos."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://jules-construction.netlify.app" data-title="Jules Construction" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://jules-construction.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project 6: Recto AI Designer -->
-            <a href="https://recto-app.netlify.app" target="_blank" rel="noopener" class="project-card" id="project-recto">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/recto-app.png" alt="Recto AI Designer" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Recto AI Designer</h3>
-                <p>AI-powered design platform for automated creative solutions.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>AI Integration</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/motivico-business.png" class="img-fluid" alt="Motivico Business" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">Motivico Business</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/motivico-business.png" class="glightbox" data-gallery="pf" data-glightbox="title: Motivico Business; description: Business consulting corporate website."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://motivico-business.netlify.app" data-title="Motivico Business" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://motivico-business.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project 7: Brookstone Property -->
-            <a href="https://brookstone-property.netlify.app" target="_blank" rel="noopener" class="project-card project-card--wide" id="project-brookstone">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/brookstone-property.png" alt="Brookstone Property" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Brookstone Property</h3>
-                <p>Premium real estate platform for luxury properties in Lagos, Nigeria.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>Real Estate</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/recto-app.png" class="img-fluid" alt="Recto AI Designer" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">Recto AI Designer</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/recto-app.png" class="glightbox" data-gallery="pf" data-glightbox="title: Recto AI Designer; description: AI-powered design platform."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://recto-app.netlify.app" data-title="Recto AI Designer" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://recto-app.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project 8: Bespoke Visualizer -->
-            <a href="https://bespoke-visualizer.netlify.app" target="_blank" rel="noopener" class="project-card" id="project-bespoke">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/bespoke-visualizer.png" alt="Bespoke Visualizer" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit Site</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Bespoke Visualizer</h3>
-                <p>Product visualization and interior design tool for bespoke window treatments.</p>
-                <div class="project-card__tech">
-                  <span>HTML/CSS</span><span>JavaScript</span><span>Interactive UI</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/brookstone-property.png" class="img-fluid" alt="Brookstone Property" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">Brookstone Property</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/brookstone-property.png" class="glightbox" data-gallery="pf" data-glightbox="title: Brookstone Property; description: Real estate platform for luxury properties."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://brookstone-property.netlify.app" data-title="Brookstone Property" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://brookstone-property.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-          </div>
-        </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-website">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/websites/bespoke-visualizer.png" class="img-fluid" alt="Bespoke Visualizer" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Website</div>
+                      <h3 class="entry-title">Bespoke Visualizer</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/websites/bespoke-visualizer.png" class="glightbox" data-gallery="pf" data-glightbox="title: Bespoke Visualizer; description: Interactive product visualizer."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="#" class="portfolio-preview" data-live-url="https://bespoke-visualizer.netlify.app" data-title="Bespoke Visualizer" title="View live site"><i class="bi bi-play-circle"></i></a>
+                        <a href="https://bespoke-visualizer.netlify.app" target="_blank" rel="noopener" title="Visit site"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-        <!-- Web Application Development Projects -->
-        <div class="projects-category" id="category-webapps">
-          <div class="projects-grid" data-aos="fade-up" data-aos-delay="200">
+            <!-- Web Apps -->
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-webapp">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/cattle disease.png" class="img-fluid" alt="Disease Detector" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Web App · Python · ML</div>
+                      <h3 class="entry-title">Disease Detector</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/cattle disease.png" class="glightbox" data-gallery="pf" data-glightbox="title: Disease Detector; description: ML-powered cattle disease detection app."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="disease-detector.html" title="View details"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project: Bespoke Visualizer -->
-            <a href="https://bespoke-visualizer.netlify.app" target="_blank" rel="noopener" class="project-card project-card--wide" id="project-bespoke-app">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/websites/bespoke-visualizer.png" alt="Bespoke Visualizer" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> Visit App</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Bespoke Visualizer</h3>
-                <p>Interactive product visualization tool for custom window treatments and interior design.</p>
-                <div class="project-card__tech">
-                  <span>JavaScript</span><span>Canvas API</span><span>Interactive UI</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-webapp">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/real estate.png" class="img-fluid" alt="Realtor Agency" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Web App · React · Node.js</div>
+                      <h3 class="entry-title">Realtor Agency</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/real estate.png" class="glightbox" data-gallery="pf" data-glightbox="title: Realtor Agency; description: Full-stack real estate platform."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="real-estate-details.html" title="View details"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project: Disease Detector -->
-            <a href="disease-detector.html" class="project-card project-card--wide" id="project-disease">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/cattle disease.png" alt="Disease Detector" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> View Details</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Disease Detector</h3>
-                <p>ML-powered web application for cattle disease detection and diagnosis.</p>
-                <div class="project-card__tech">
-                  <span>Python</span><span>Machine Learning</span><span>Flask</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-webapp">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/image.png" class="img-fluid" alt="Charity Donation Platform" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Web App · Payments</div>
+                      <h3 class="entry-title">Donation Platform</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/image.png" class="glightbox" data-gallery="pf" data-glightbox="title: Charity Donation Platform; description: App for managing charitable donations."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="donation-web.html" title="View details"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
-            <!-- Project: Realtor Agency -->
-            <a href="real-estate-details.html" class="project-card" id="project-realtor">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/real estate.png" alt="Realtor Agency" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> View Details</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Realtor Agency</h3>
-                <p>Full-stack real estate platform with property listing and search.</p>
-                <div class="project-card__tech">
-                  <span>React</span><span>Node.js</span><span>Database</span>
-                </div>
-              </div>
-            </a>
-
-            <!-- Project: Donation Platform -->
-            <a href="donation-web.html" class="project-card" id="project-donation">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/image.png" alt="Donation Platform" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> View Details</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Charity Donation Platform</h3>
-                <p>Web application for managing and processing charitable donations.</p>
-                <div class="project-card__tech">
-                  <span>JavaScript</span><span>Payment API</span><span>Full-stack</span>
-                </div>
-              </div>
-            </a>
-
-            <!-- Project: Expense Tracker -->
-            <a href="expense-tracker.html" class="project-card project-card--wide" id="project-expense">
-              <div class="project-card__image">
-                <img src="assets/img/portfolio/expense-trackekr-home.png" alt="Expense Tracker" loading="lazy">
-                <div class="project-card__overlay">
-                  <span class="project-card__cta"><i class="bi bi-arrow-up-right"></i> View Details</span>
-                </div>
-              </div>
-              <div class="project-card__info">
-                <h3>Expenses Tracker</h3>
-                <p>Income and expense management dashboard with data visualization.</p>
-                <div class="project-card__tech">
-                  <span>React</span><span>Chart.js</span><span>REST API</span>
-                </div>
-              </div>
-            </a>
+            <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-webapp">
+              <article class="portfolio-entry">
+                <figure class="entry-image">
+                  <img src="assets/img/portfolio/expense-trackekr-home.png" class="img-fluid" alt="Expenses Tracker" loading="lazy">
+                  <div class="entry-overlay">
+                    <div class="overlay-content">
+                      <div class="entry-meta">Web App · React · Chart.js</div>
+                      <h3 class="entry-title">Expenses Tracker</h3>
+                      <div class="entry-links">
+                        <a href="assets/img/portfolio/expense-trackekr-home.png" class="glightbox" data-gallery="pf" data-glightbox="title: Expenses Tracker; description: Income & expense dashboard with charts."><i class="bi bi-arrows-angle-expand"></i></a>
+                        <a href="expense-tracker.html" title="View details"><i class="bi bi-arrow-up-right"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </article>
+            </div>
 
           </div>
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section><!-- /Projects Section -->
 
-    
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
 
-  
-<!-- Contact Section -->
-<section id="contact" class="contact section">
-
-  <div class="container" data-aos="fade-up">
-
-    <div class="contact-cta">
-      <span class="contact-cta__badge">Let's Work Together</span>
-      <h2 class="contact-cta__title">Got a project in mind?</h2>
-      <p class="contact-cta__text">I'm always open to new opportunities, collaborations, and interesting projects. Drop me a message and let's build something great.</p>
-
-      <div class="contact-cta__details">
-        <a href="mailto:abdulwahabtaofeek22@gmail.com" class="contact-cta__item">
-          <i class="bi bi-envelope"></i>
-          <span>abdulwahabtaofeek22@gmail.com</span>
-        </a>
-        <a href="tel:+2349060268865" class="contact-cta__item">
-          <i class="bi bi-telephone"></i>
-          <span>+234 9060 2688 65</span>
-        </a>
-        <span class="contact-cta__item">
-          <i class="bi bi-geo-alt"></i>
-          <span>Lagos, Nigeria</span>
-        </span>
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div><span>Let's</span> <span class="description-title">Connect</span></div>
       </div>
 
-      <a href="https://wa.link/8pthz5" target="_blank" rel="noopener" class="contact-cta__btn" id="whatsapp-cta">
-        <i class="bi bi-whatsapp"></i>
-        <span>Get In Touch</span>
-      </a>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="contact-cta__socials">
-        <a href="https://x.com/dev_tao_" target="_blank" rel="noopener"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://github.com/taofeek-c4" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
-        <a href="https://www.instagram.com/dev_tao?igsh=MTBkem1oMWliYXFybA==" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.facebook.com/share/15S1EmQdZd/" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+        <div class="row gy-4 mb-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="contact-info-box">
+              <div class="icon-box"><i class="bi bi-envelope"></i></div>
+              <div class="info-content">
+                <h4>Email</h4>
+                <p>abdulwahabtaofeek22@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-info-box">
+              <div class="icon-box"><i class="bi bi-whatsapp"></i></div>
+              <div class="info-content">
+                <h4>Phone / WhatsApp</h4>
+                <p>+234 9060 2688 65</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="contact-info-box">
+              <div class="icon-box"><i class="bi bi-geo-alt"></i></div>
+              <div class="info-content">
+                <h4>Location</h4>
+                <p>Lagos, Nigeria</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-8">
+            <h3 class="mb-3">Got a project in mind?</h3>
+            <p class="mb-4">I'm always open to new opportunities, collaborations, and interesting projects. Let's build something great together.</p>
+            <a href="https://wa.me/2349060268865?text=Hi%20Abdulwahab,%20I'd%20like%20to%20work%20with%20you." target="_blank" rel="noopener" class="btn-getstarted">Get In Touch</a>
+          </div>
+        </div>
+
       </div>
-    </div>
 
-  </div>
-
-</section>
-
+    </section><!-- /Contact Section -->
 
   </main>
 
-  <footer id="footer" class="footer position-relative">
+  <!-- Live Project Preview Modal -->
+  <div id="portfolio-preview-modal" class="portfolio-preview-modal" aria-hidden="true">
+    <div class="ppm-backdrop" data-ppm-close></div>
+    <div class="ppm-dialog" role="dialog" aria-modal="true" aria-labelledby="ppm-title">
+      <div class="ppm-header">
+        <div class="ppm-title-wrap">
+          <span class="ppm-live-badge"><span class="ppm-dot"></span> LIVE</span>
+          <h4 id="ppm-title">Website Preview</h4>
+        </div>
+        <div class="ppm-actions">
+          <div class="ppm-viewport-toggle" role="group" aria-label="Preview device">
+            <button type="button" class="ppm-vp active" data-ppm-view="desktop" title="Desktop view"><i class="bi bi-display"></i></button>
+            <button type="button" class="ppm-vp" data-ppm-view="mobile" title="Mobile view"><i class="bi bi-phone"></i></button>
+          </div>
+          <a href="#" id="ppm-open" class="ppm-open-btn" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> <span>Open site</span></a>
+          <button type="button" class="ppm-close" data-ppm-close aria-label="Close preview"><i class="bi bi-x-lg"></i></button>
+        </div>
+      </div>
+      <div class="ppm-body">
+        <div class="ppm-loader" id="ppm-loader">
+          <div class="ppm-spinner"></div>
+          <p>Loading live website…</p>
+        </div>
+        <div class="ppm-frame-wrap" id="ppm-frame-wrap">
+          <iframe id="ppm-frame" title="Live website preview" referrerpolicy="no-referrer"></iframe>
+        </div>
+      </div>
+      <p class="ppm-hint">Viewing the real, live website. Not loading? Some sites block embedding — <a href="#" id="ppm-hint-open" target="_blank" rel="noopener">open it in a new tab</a>.</p>
+    </div>
+  </div>
 
-    <div class="container">
-      <div class="copyright text-center ">
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Abdulwahab Taofeek</span>
+          </a>
+          <p>Software engineer & web developer building fast, modern websites and web apps from Lagos, Nigeria.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://github.com/taofeek-c4" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
+            <a href="https://x.com/dev_tao_" target="_blank" rel="noopener"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/dev_tao" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/share/15S1EmQdZd/" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-contact text-center text-md-start">
+          <h4>Get in touch</h4>
+          <p>Lagos, Nigeria</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+234 9060 2688 65</span></p>
+          <p><strong>Email:</strong> <span>abdulwahabtaofeek22@gmail.com</span></p>
+        </div>
+
       </div>
-      <div class="credits">
-        Designed by <a href="https://abdulwahabtaofeekdev.netlify.app/">Abdul-wahab Taofeek</a>
-      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <strong class="px-1 sitename">Abdulwahab Taofeek</strong> <span>All Rights Reserved</span></p>
     </div>
 
   </footer>
@@ -439,15 +566,16 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!-- Main JS (DevTao behaviors) + chat widget -->
+  <script src="assets/js/devtao-main.js"></script>
+  <script src="assets/js/chat-widget.js"></script>
 
 </body>
+
+</html>
